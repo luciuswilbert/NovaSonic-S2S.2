@@ -1,0 +1,11 @@
+# The following are required for Bedrock Runtime but are NOT available on PyPI:
+# aws_sdk_bedrock_runtime
+# smithy_aws_core
+# You must install these manually or from AWS SDK source if available.
+
+pyaudio
+python-dotenv
+boto3
+botocore
+awscli
+
