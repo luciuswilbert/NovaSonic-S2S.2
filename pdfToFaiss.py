@@ -28,7 +28,7 @@ def extract_text_from_pdf(pdf_path):
         text += page.get_text()
     return text
 
-def chunk_text(text, chunk_size=300, overlap=50):
+def chunk_text(text, chunk_size=600, overlap=100):
     chunks = []
     start = 0
     text_length = len(text)
